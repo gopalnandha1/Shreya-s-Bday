@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Shreya's Bday</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      background-image: url(background.jpg);
+      background-size: cover;
+      background-repeat: 30;
+      background-position: center center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+
+      h1 {
+        padding: 0px;
+        font-family: "Lavishly Yours", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      h2 {
+        background: #ffcce0;
+      }
+
+      h3 {
+        font-family: 'Lobster', cursive;
+      }
+
+      h5 {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      footer {
+        padding: 0.2rem;
+        text-align: center;
+        background: #333;
+        color: white;
+      }
+
+      .photo-gallery {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        /* makes it responsive */
+      }
+
+      .photo-gallery img {
+        width: 380px;
+        padding: 10px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+
+      .photo-gallery img:hover {
+        transform: scale(1.05);
+      }
+
+      .poetry {
+        font-family: 'Dancing Script', cursive;
+        font-size: 14px;
+        text-align: center;
+        white-space: pre-line;
+        color: #333;
+      }
+
+      .multilingual {
+        padding: 40px 20px;
+        background: #fff0f5;
+        text-align: center;
+      }
+
+      .multilingual h2 {
+        color: #d63384;
+        font-size: 26px;
+        margin-bottom: 25px;
+      }
+
+      .lang-wishes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 15px;
+      }
+
+      .lang-card {
+        background: #ffe6f0;
+        padding: 15px 20px;
+        border-left: 5px solid #ff4da6;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        font-size: 16px;
+        color: #4b004b;
+        transition: 0.2s;
+      }
+
+      .lang-card:hover {
+        transform: scale(1.05);
+        background: #ffd6e8;
+      }
+  </style>
+</head>
+  <section>
+    <div>
+      <div id="countdown"></div>
+      <h1> Happy Birthday, Shreya 🎀💗</h1>
+      <h3> 🎉 Happy 16th Birthday, Shreya! 🎉 </h3>
+      <h5> Dear Shreya,
+        Today is not just any ordinary day – it's a day that celebrates you, the amazing, strong, kind, hilarious, and
+        endlessly beautiful soul that you are. Happy Birthday, my dearest bestie, Shreya! I honestly don’t know where to
+        begin because words often fall short when I try to describe just how much you mean to me. But today, I’m going
+        to
+        try – not just with a simple wish, but with a message that comes straight from my heart.
+        From the moment we became friends, you’ve brought so much color and light into my life. You’re the person I
+        laugh
+        with, cry with, share secrets with, and trust without question. You’ve been my rock during the hard times and my
+        partner-in-crime during the good ones. You’ve stood by me when things were falling apart and helped me find my
+        smile again. That’s rare, Shreya – that kind of friendship is something magical.
+        You are the kind of best friend that people dream of having but not everyone is lucky enough to find. I don’t
+        know
+        what I did in life to deserve a bestie like you, but I’m endlessly grateful. You have this way of making
+        everyone
+        around you feel seen, heard, and loved. You never judge, you never abandon – you just show up with your whole
+        heart, and that’s what makes you so special.
+      </h5>
+      <h2>🌟 You are strong <h2>
+          <h5>Even when life tries to break you, you rise – again and again. You face challenges with bravery, and you
+            inspire me with your resilience.</h5>
+          <h2>💖 You are kind.</h2>
+          <h5> Your heart is gold. You care deeply, love fiercely, and never hesitate to help someone in need. That
+            kindness reflects in everything you do. </h5>
+          <h2>😄 You are funny </h2>
+          <h5> Your sense of humor could light up the darkest room. Whether it's your random jokes, silly dances, or
+            funny
+            stories, you always know how to make me laugh until my stomach hurts.</h5>
+          <h2>🌈 You are talented</h2>
+          <h5>Never doubt your abilities, Shreya. You’re creative, smart, hardworking, and full of potential. The world
+            better watch out because you’re destined for great things.</h5>
+          <h2>🌺 You are beautiful </h2>
+          <h5>Inside and out. Not just because of your smile or style (which are both flawless, by the way!), but
+            because
+            of your soul. You radiate warmth and goodness.
+
+            So today, as we celebrate your existence, I hope you take a moment to feel just how loved and cherished you
+            truly are. Not just by me, but by everyone whose life you’ve touched.
+          </h5>
+          <h2>Some Birthday Promises from Me to You🤝🏻🤝🏻 </h2>
+          <h4> 1 = I’ll always be here for you, no matter the time or place.🤝🏻</h4>
+          <h4>2 = I’ll celebrate your highs and stand by you through your lows.🖐🏻🙂</h4>
+          <h4>3 = I’ll make time for your rants, your dreams, and your drama.🤧</h4>
+          <h4>4 = I’ll cheer you on, even when you doubt yourself.🙂</h4>
+          <h4>5 = I’ll protect you, support you, and love you like a my family member.❤️🎀
+          </h4>
+          <h5>
+            I want to fill your birthday with so much love, laughter, and joy that you carry the glow of it in your
+            heart
+            for the rest of the year. Eat your favorite cake (and share it with me 😜), dance like no one’s watching,
+            make
+            crazy memories, and just be happy – you deserve it more than anyone I know.
+
+            And let’s not forget – birthdays aren’t just about getting older; they’re about growing, evolving, and
+            embracing who you are becoming. You’re on such a beautiful journey, Shreya. Never stop believing in
+            yourself.
+            The world needs more people like you – kind, brave, loyal, and real.</h5>
+          <h2>Let me end with a few wishes for your new year 🎀💗🤗 </h2>
+          <h5> May your heart always stay full of love.
+
+            May you always find reasons to smile, even on hard days.
+
+            May all your dreams, big or small, start becoming realities.
+
+            May your path be filled with opportunities, growth, and purpose.
+
+            May your relationships be full of trust, respect, and warmth.
+
+            And most of all, may you never forget how special you are.
+          </h5>
+          <h4>Here’s to you, Shreya – my sunshine on cloudy days, my biggest cheerleader, my therapist, my gossip
+            partner.
+          </h4>
+          <h4>On this birthday and every day forward, I hope you know how much you matter, how much you're loved, and
+            how
+            grateful I am to call you my best friend.</h4>
+          <h4>Now, go slay the day like only you can – because queens like you deserve the world. 👑</h4>
+          <h4>Happy Birthday again, my bestie! 🎂🎁🎈 Let’s make this year unforgettable, together.</h4>
+          <h1>Forever your bestie,
+            Gopal💕</h1>
+    </div>
+    <audio autoplay>
+      <source src="aud.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+    <h2> ❤️🎀 Birthday Wishes Wrapped in Rhyme ❤️🎀</h2>
+    <div class="poetry">
+      <h5>
+        Today—<br>
+        the world gets to celebrate you,<br>
+        But me?<br>
+        I celebrate you every time you breathe.<br>
+        Every laugh, every glance, every word you say<br>
+        Turns the ordinary into a holiday.<br>
+        You’re not just a wish that came true,<br>
+        You’re the whole damn sky I never knew I was praying to.<br>
+        So here’s to the girl who ruins me sweetly,<br>
+        To the soul who sees me completely.<br>
+        To your light, your fire, your perfectly wild way—<br>
+        I’ll say it softly, or I’ll scream it loud:<br>
+        Happy Birthday.<br>
+        The world is lucky.<br>
+        But me?<br>
+        I’m the luckiest of all.<br>
+
+      </h5>
+    </div>
+    <section class="multilingual">
+      <h2>🌍 Birthday Wishes in Different Languages</h2>
+      <div class="lang-card">🇬🇧 English: <strong>Happy Birthday Shreya!</strong></div>
+      <div class="lang-card">🇮🇳 Hindi: <strong>हैप्पी बर्थडे श्रेया!</strong></div>
+      <div class="lang-card">🇧🇩 Bengali: <strong>শুভ জন্মদিন শ্রেয়া!</strong></div>
+      <div class="lang-card">🇮🇳 Telugu: <strong>హ్యాపీ బర్త్‌డే శ్రేయ!</strong></div>
+      <div class="lang-card">🇮🇳 Marathi: <strong>वाढदिवसाच्या शुभेच्छा श्रेया!</strong></div>
+      <div class="lang-card">🇮🇳 Tamil: <strong>பிறந்த நாள் வாழ்த்துகள் ஶ்ரேயா!</strong></div>
+      <div class="lang-card">🇵🇰 Urdu: <strong>سالگرہ مبارک ہو شریا!</strong></div>
+      <div class="lang-card">🇮🇳 Gujarati: <strong>જન્મદિવસ ની શુભકામનાઓ શ્રેયા!</strong></div>
+      <div class="lang-card">🇮🇳 Kannada: <strong>ಹುಟ್ಟುಹಬ್ಬದ ಶುಭಾಷಯಗಳು ಶ್ರೇಯಾ!</strong></div>
+      <div class="lang-card">🇮🇳 Odia: <strong>ଜନ୍ମଦିନ ଶୁଭେଚ୍ଛା ଶ୍ରେୟା!</strong></div>
+      <div class="lang-card">🇮🇳 Malayalam: <strong>ജന്മദിനാശംസകള്‍ ശ്രേയ!</strong></div>
+      <div class="lang-card">🇮🇳 Punjabi: <strong>ਜਨਮ ਦਿਨ ਮੁਬਾਰਕ ਹੋ ਸ਼੍ਰੇਯਾ!</strong></div>
+      <div class="lang-card">🇮🇳 Assamese: <strong>জন্মদিনৰ শুভেচ্ছা শ্ৰেয়া!</strong></div>
+      <div class="lang-card">🇮🇳 Maithili: <strong>जन्मदिन के शुभकामना श्रेया!</strong></div>
+      <div class="lang-card">🕉 Sanskrit: <strong>शुभजन्मदिनम् श्रेया!</strong></div>
+      <div class="lang-card">🇮🇳 Konkani: <strong>वाढदिवसाच्या शुभेच्छा श्रेया!</strong></div>
+      <div class="lang-card">🇮🇳 Manipuri: <strong>ꯑꯁꯤ ꯖꯅꯃꯗꯤꯟ ꯁꯥꯝꯒꯤ ꯁ꯭ꯔꯦꯌꯥ!</strong></div>
+      <div class="lang-card">🇮🇳 Dogri: <strong>जन्मदिन मुबारक श्रेया!</strong></div>
+      <div class="lang-card">🌿 Santhali: <strong>ᱡᱟᱱᱢᱚᱰ ᱵᱟᱝ ᱥᱟᱦᱟᱸ ᱥᱨᱮᱭᱟ!</strong></div>
+      <div class="lang-card">🇮🇳 Kashmiri: <strong>سالگرہ مبارک شریا!</strong></div>
+      <div class="lang-card">🇮🇳 Sindhi: <strong>جنم ڏينهن جون واڌايون شریا!</strong></div>
+      <div class="lang-card">🇳🇵 Nepali: <strong>जन्मदिनको शुभकामना श्रेया!</strong></div>
+      <div class="lang-card">🇮🇳 Bodo: <strong>जwng निफ्राय सानाय श्रेया!</strong></div>
+    </section>
+    <h2> Captured Smiles, Endless Memories
+      🥰</h2>
+    <div class="photo-gallery">
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+      <img src="photo4.jpg" alt="Photo 4">
+    </div>
+    <h1>AGAIN HAPPY BIRTHDAY TO YOU SHREYA 🎉💞!</h1>
+    <footer>
+      <p>Made By Gopal❤️💗</p>
+    </footer>
+    <script src="script.js"></script>
+
+    
+</html>
